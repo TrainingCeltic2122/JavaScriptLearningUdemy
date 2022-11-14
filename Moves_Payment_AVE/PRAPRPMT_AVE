@@ -8,7 +8,7 @@ Request
       "FleetYear": "2023",
       "IRPAccount": "16560",
       "FleetNo": "005",
-      "SupplementNo": "008",
+      "SupplementNo": "0008",
       "ServiceVAC": "00042-5751",
       "LineTX": "100.00",
       "BundleTX": "100.00"
@@ -18,7 +18,7 @@ Request
 
 Response
 {
-    "RequestID": "ABJS-130",
-    "ResponseCode": "000000",
-    "ErrorText": ""
+  "RequestID": "ABJS-130",
+  "ResponseCode": "000000",
+  "ErrorText": ""
 }
