@@ -1,0 +1,37 @@
+Request
+{
+  "RequestID": "ABJS-130",
+  "FleetYear": "2023",
+  "ClientMVID": "0006-87848",
+  "IRPAccount": "16560",
+  "FleetNo": "005",
+  "SupplementNo": "008"
+}
+
+Response
+{
+    "RequestID": "ABJS-130",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "FleetYear": "2023",
+    "ClientMVID": "0006-87848",
+    "FleetNo": "5",
+    "SupplementNo": "0008",
+    "IRPAccount": "16560",
+    "EffectiveDate": "2022/09/13",
+    "ExpiryDate": "2023/04/30",
+    "CarrierType": "H",
+    "SupplementType": "ADD VEHICLE",
+    "SupplementLines": [
+      {
+        "MOVESService": "V-FIRST",
+        "ServiceFlag": "N",
+        "ServiceVAC": "00042-5751",
+        "TransferVAC": "",
+        "NewPlate": "NEW",
+        "NewPlateIssue": "",
+        "CADNetFee": "1092.17",
+        "USDNetFee": "463.60"
+      }
+    ]
+  }

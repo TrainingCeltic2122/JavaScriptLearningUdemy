@@ -1,0 +1,27 @@
+Request
+{
+  "RequestID": "ABJS-130",
+  "PaymentTX": "100.00",
+  "PaymentDate": "14/11/2022",
+  "OfficeCode": "100",
+  "ClerkMVID": "0006-87848",
+  "CompleteAndPaidVehicles": [
+    {
+      "FleetYear": "2023",
+      "IRPAccount": "16560",
+      "FleetNo": "005",
+      "SupplementNo": "008",
+      "ServiceVAC": "00042-5751",
+      "LineTX": "100.00",
+      "BundleTX": "string"
+    }
+  ]
+}
+
+Response
+{
+    "RequestID": "ABJS-130",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "RelatedTX": "100.00"
+  }
