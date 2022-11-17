@@ -1,0 +1,1598 @@
+API - PRFLTSUM
+Request
+{
+  "RequestID": "ABSD164",
+  "FleetYear": "2024",
+  "ClientMVID": "0006-91253",
+  "IRPAccount": "16569",
+  "FleetNo": "004",
+  "SupplementNo": "000"
+}
+
+Response
+{
+  "RequestID": "ABSD164",
+  "ResponseCode": "000000",
+  "ErrorText": "",
+  "FleetYear": "2024",
+  "ClientMVID": "0006-91253",
+  "FleetNo": "4",
+  "SupplementNo": "0000",
+  "IRPAccount": "16569",
+  "EffectiveDate": "2023/05/01",
+  "ExpiryDate": "2024/04/30",
+  "CarrierType": "P",
+  "SupplementType": "RENEW FLEET",
+  "SupplementLines": [
+    {
+      "MOVESService": "V-RENEW",
+      "ServiceFlag": "N",
+      "ServiceVAC": "00042-5124",
+      "TransferVAC": "",
+      "NewPlate": "",
+      "NewPlateIssue": "",
+      "CADNetFee": "3631.67",
+      "USDNetFee": "620.49"
+    },
+    {
+      "MOVESService": "V-RENEW",
+      "ServiceFlag": "N",
+      "ServiceVAC": "00042-5132",
+      "TransferVAC": "",
+      "NewPlate": "",
+      "NewPlateIssue": "",
+      "CADNetFee": "3853.84",
+      "USDNetFee": "678.17"
+    },
+    {
+      "MOVESService": "V-RENEW",
+      "ServiceFlag": "N",
+      "ServiceVAC": "00042-5116",
+      "TransferVAC": "",
+      "NewPlate": "",
+      "NewPlateIssue": "",
+      "CADNetFee": "4625.40",
+      "USDNetFee": "813.42"
+    },
+    {
+      "MOVESService": "V-FIRST",
+      "ServiceFlag": "N",
+      "ServiceVAC": "00042-5140",
+      "TransferVAC": "",
+      "NewPlate": "NEW",
+      "NewPlateIssue": "",
+      "CADNetFee": "3018.45",
+      "USDNetFee": "710.29"
+    }
+  ]
+}
+
+API - PRSTSRVC
+Request - 1
+{
+    "RequestID": "ABSD164",
+    "WorkBundle": "N",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "OfficeCode": "100",
+    "ClerkMVID": "0006-91253",
+    "LineTX": "10.00",
+    "PaymentTX": "10.00",
+    "MOVESService": "V-RENEWP",
+    "ServiceDate": "16/11/2022",
+    "CurrentPlate": "ABCD111",
+    "CurrentPlateIssue": "ABCS112",
+    "ServiceVAC": "00042-5124",
+    "TransferVAC": ""
+}
+
+Request - 2
+{
+    "RequestID": "ABSD164",
+    "WorkBundle": "N",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "OfficeCode": "100",
+    "ClerkMVID": "0006-91253",
+    "LineTX": "10.00",
+    "PaymentTX": "10.00",
+    "MOVESService": "V-RENEWP",
+    "ServiceDate": "16/11/2022",
+    "CurrentPlate": "ABSD643",
+    "CurrentPlateIssue": "ABSD643",
+    "ServiceVAC": "00042-5116",
+    "TransferVAC": ""
+}
+
+Request - 3
+{
+    "RequestID": "ABSD164",
+    "WorkBundle": "N",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "OfficeCode": "100",
+    "ClerkMVID": "0006-91253",
+    "LineTX": "10.00",
+    "PaymentTX": "10.00",
+    "MOVESService": "V-RENEWP",
+    "ServiceDate": "16/11/2022",
+    "CurrentPlate": "ABCD000",
+    "CurrentPlateIssue": "ABCD000",
+    "ServiceVAC": "00042-5132",
+    "TransferVAC": ""
+}
+
+Request - 4
+{
+    "RequestID": "ABSD164",
+    "WorkBundle": "N",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "OfficeCode": "100",
+    "ClerkMVID": "0006-91253",
+    "LineTX": "10.00",
+    "PaymentTX": "10.00",
+    "MOVESService": "V-FIRST",
+    "ServiceDate": "16/11/2022",
+    "CurrentPlate": "ABCD1611",
+    "CurrentPlateIssue": "ABCD1611",
+    "ServiceVAC": "00042-5140",
+    "TransferVAC": ""
+}
+
+Response - 1
+{
+    "RequestID": "ABSD164",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "ServiceVAC": "00042-5124",
+    "OperationType": "Private",
+    "IRPService": "V-RENEW",
+    "EffectiveDate": "2023/05/01",
+    "ExpiryDate": "2024/04/30",
+    "CarrierType": "J",
+    "ABGVW": "63500",
+    "ABGVWUnit": "KG",
+    "TareWeight": "2350",
+    "TareWeightUnit": "KG",
+    "NewPlateNumber": "ABCD111",
+    "NewPlateIssue": "ABCS112",
+    "VehicleType": "TK",
+    "BusWheelbase": null,
+    "BusSeats": null,
+    "Axles": "3",
+    "CabCardAccountNo": "AB16569-004",
+    "ABRegistrationCharge": "1035.00",
+    "ABRegistrationCredit": "0.00",
+    "ABMVACharge": "6.00",
+    "ABMVACredit": "0.00",
+    "ABAdminCharge": "13.00",
+    "ABAdminCredit": "0.00",
+    "ABGSTCharge": "0.00",
+    "ABGSTCredit": "0.00",
+    "ABNetFee": "1054.00",
+    "CDNJurisdictionsList": [
+      {
+        "Code": "BC",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "MB",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NB",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NL",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NS",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "ON",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "PE",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "QC",
+        "GVW": "3",
+        "GVWUnit": "AX"
+      },
+      {
+        "Code": "SK",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      }
+    ],
+    "CDNNetFee": "2577.67",
+    "USJurisdictionsList": [
+      {
+        "Code": "AL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AZ",
+        "GVW": "050000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "FL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "GA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ID",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "LA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ME",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ND",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NJ",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NM",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OK",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "PA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "RI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TX",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "UT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      }
+    ],
+    "USNetFee": "620.49"
+  }
+
+Response - 2
+{
+    "RequestID": "ABSD164",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "ServiceVAC": "00042-5116",
+    "OperationType": "Private",
+    "IRPService": "V-RENEW",
+    "EffectiveDate": "2023/05/01",
+    "ExpiryDate": "2024/04/30",
+    "CarrierType": "J",
+    "ABGVW": "63500",
+    "ABGVWUnit": "KG",
+    "TareWeight": "16000",
+    "TareWeightUnit": "KG",
+    "NewPlateNumber": "ABSD643",
+    "NewPlateIssue": "ABSD643",
+    "VehicleType": "TK",
+    "BusWheelbase": null,
+    "BusSeats": null,
+    "Axles": "3",
+    "CabCardAccountNo": "AB16569-004",
+    "ABRegistrationCharge": "1035.00",
+    "ABRegistrationCredit": "0.00",
+    "ABMVACharge": "6.00",
+    "ABMVACredit": "0.00",
+    "ABAdminCharge": "13.00",
+    "ABAdminCredit": "0.00",
+    "ABGSTCharge": "0.00",
+    "ABGSTCredit": "0.00",
+    "ABNetFee": "1054.00",
+    "CDNJurisdictionsList": [
+      {
+        "Code": "BC",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "MB",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NB",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NL",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NS",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "ON",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "PE",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "QC",
+        "GVW": "3",
+        "GVWUnit": "AX"
+      },
+      {
+        "Code": "SK",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      }
+    ],
+    "CDNNetFee": "3571.40",
+    "USJurisdictionsList": [
+      {
+        "Code": "AL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AZ",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "FL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "GA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ID",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "LA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ME",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ND",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NJ",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NM",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OK",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "PA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "RI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TX",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "UT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      }
+    ],
+    "USNetFee": "813.42"
+  }
+
+  Response - 3
+  {
+    "RequestID": "ABSD164",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "ServiceVAC": "00042-5132",
+    "OperationType": "Private",
+    "IRPService": "V-RENEW",
+    "EffectiveDate": "2023/05/01",
+    "ExpiryDate": "2024/04/30",
+    "CarrierType": "J",
+    "ABGVW": "63500",
+    "ABGVWUnit": "KG",
+    "TareWeight": "6235",
+    "TareWeightUnit": "KG",
+    "NewPlateNumber": "ABCD000",
+    "NewPlateIssue": "ABCD000",
+    "VehicleType": "TK",
+    "BusWheelbase": null,
+    "BusSeats": null,
+    "Axles": "3",
+    "CabCardAccountNo": "AB16569-004",
+    "ABRegistrationCharge": "1035.00",
+    "ABRegistrationCredit": "0.00",
+    "ABMVACharge": "6.00",
+    "ABMVACredit": "0.00",
+    "ABAdminCharge": "13.00",
+    "ABAdminCredit": "0.00",
+    "ABGSTCharge": "0.00",
+    "ABGSTCredit": "0.00",
+    "ABNetFee": "1054.00",
+    "CDNJurisdictionsList": [
+      {
+        "Code": "BC",
+        "GVW": "055500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "MB",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NB",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NL",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NS",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "ON",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "PE",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "QC",
+        "GVW": "3",
+        "GVWUnit": "AX"
+      },
+      {
+        "Code": "SK",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      }
+    ],
+    "CDNNetFee": "2799.84",
+    "USJurisdictionsList": [
+      {
+        "Code": "AL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AZ",
+        "GVW": "050000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "FL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "GA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ID",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "LA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ME",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ND",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NJ",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NM",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OK",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "PA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "RI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TX",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "UT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      }
+    ],
+    "USNetFee": "678.17"
+  }
+
+Response - 4
+  {
+    "RequestID": "ABSD164",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "FleetYear": "2024",
+    "ClientMVID": "0006-91253",
+    "IRPAccount": "16569",
+    "FleetNo": "004",
+    "SupplementNo": "000",
+    "ServiceVAC": "00042-5140",
+    "OperationType": "Private",
+    "IRPService": "V-FIRST",
+    "EffectiveDate": "2023/05/01",
+    "ExpiryDate": "2024/04/30",
+    "CarrierType": "J",
+    "ABGVW": "63500",
+    "ABGVWUnit": "KG",
+    "TareWeight": "5000",
+    "TareWeightUnit": "KG",
+    "NewPlateNumber": "ABCD1611",
+    "NewPlateIssue": "ABCD1611",
+    "VehicleType": "TR",
+    "BusWheelbase": null,
+    "BusSeats": null,
+    "Axles": "2",
+    "CabCardAccountNo": "AB16569-004",
+    "ABRegistrationCharge": "1035.00",
+    "ABRegistrationCredit": "0.00",
+    "ABMVACharge": "6.00",
+    "ABMVACredit": "0.00",
+    "ABAdminCharge": "13.00",
+    "ABAdminCredit": "0.00",
+    "ABGSTCharge": "0.00",
+    "ABGSTCredit": "0.00",
+    "ABNetFee": "1054.00",
+    "CDNJurisdictionsList": [
+      {
+        "Code": "BC",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "MB",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NB",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NL",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "NS",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "ON",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "PE",
+        "GVW": "062500",
+        "GVWUnit": "KG"
+      },
+      {
+        "Code": "QC",
+        "GVW": "5",
+        "GVWUnit": "AX"
+      },
+      {
+        "Code": "SK",
+        "GVW": "063500",
+        "GVWUnit": "KG"
+      }
+    ],
+    "CDNNetFee": "1964.45",
+    "USJurisdictionsList": [
+      {
+        "Code": "AL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "AZ",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "CT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "DE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "FL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "GA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ID",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IL",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "IN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "KY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "LA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ME",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MO",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MS",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "MT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "ND",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NE",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NJ",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NM",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "NY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OH",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OK",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "OR",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "PA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "RI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SC",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "SD",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TN",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "TX",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "UT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "VT",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WA",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WI",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WV",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      },
+      {
+        "Code": "WY",
+        "GVW": "080000",
+        "GVWUnit": "LB"
+      }
+    ],
+    "USNetFee": "710.29"
+  }
+
+API - PRAPRPMT
+Request
+{
+    "RequestID": "ABSD164",
+    "PaymentTX": "10.00",
+    "OfficeCode": "100",
+    "ServicesToBePaid": [
+     {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5124",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      },
+      {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5132",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      },
+      {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5116",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      },
+      {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5140",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      }
+    ]
+  }
+
+Response
+{
+  "RequestID": "ABSD164",
+  "ResponseCode": "000000",
+  "ErrorText": ""
+}
+
+API - PRCOMPMT
+Request
+{
+    "RequestID": "ABSD164",
+    "PaymentTX": "10.00",
+    "PaymentDate": "16/11/2022",
+    "OfficeCode": "100",
+    "ClerkMVID": "0006-91253",
+    "CompleteAndPaidVehicles": [
+      {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5124",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      },
+      {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5132",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      },
+      {
+        "FleetYear": "2024",
+        "IRPAccount": "16569",
+        "FleetNo": "004",
+        "SupplementNo": "000",
+        "ServiceVAC": "00042-5116",
+        "LineTX": "10.00",
+        "BundleTX": ""
+      },
+      {
+         "FleetYear": "2024",
+         "IRPAccount": "16569",
+         "FleetNo": "004",
+         "SupplementNo": "000",
+         "ServiceVAC": "00042-5140",
+         "LineTX": "10.00",
+         "BundleTX": ""
+      }
+    ]
+  }
+
+Response
+{
+    "RequestID": "ABSD164",
+    "ResponseCode": "000000",
+    "ErrorText": "",
+    "RelatedTX": "10.00"
+  }
